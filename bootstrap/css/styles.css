@@ -1,0 +1,117 @@
+body
+{
+    font-size: 16px;
+    color:#fff;
+    background-color: #202020;
+    font-family: 'Oswald', sans-serif;
+}
+/*******END HEADER*******/
+#header-nav
+{
+    background-color: #292929;
+    border-radius: 0;
+    border: 0;
+}
+.navbar-brand
+{
+    padding-top: 20px;
+    height: 80px;
+}
+.navbar-brand h1
+{
+    color: #F5F5DC;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #F5F5DC;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus
+{
+    text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar
+{
+    border: 1px solid #F5F5DC;
+}
+.navbar-header button.navbar-toggle
+{
+    clear: both;
+    margin-top: -55px;
+}
+#nav-list a
+{
+    color: #F5F5DC;
+    text-align: center;
+    padding: 5px;   
+}
+#nav-list a:hover
+{
+    background: #585858;
+}
+#nav-list img
+{
+    height: 45px;
+}
+#nav-list span
+{
+    font-size: 1.4em;
+    vertical-align: middle;
+}
+/*******END HEADER*******/
+/*******MAIN-CONTENT*******/
+#main-content
+{
+    border:1px solid #303030;
+    box-shadow: 10px 10px 50px 20px #303030;
+    background-color: #303030;
+    padding: 20px;
+}
+
+#page-heading
+{
+    letter-spacing: 2px;
+    margin-bottom: 40px
+}
+#main-content section
+{
+    background-color:#585858;
+    padding: 20px;
+    margin-bottom: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    border: 1px solid #585858;
+    border-radius: 3px;
+    box-shadow: 0 0 50px 40px #303030; /*this not only for shadow but also slight black-white mix for our menu title*/
+    text-align: center;
+}
+#main-content section:hover
+{
+    box-shadow: 1px 1px 5px 5px #424141;
+}
+#main-content h3
+{
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    margin-bottom:20px;
+    text-transform: uppercase;
+}
+/*******END MAIN-CONTENT******/
+@media (max-width: 350px)
+{
+    .navbar-brand h1
+    {
+        font-size: 1.6em;
+        padding-top: 7px;
+    }
+    #main-content h2
+    {
+        font-size: 1.4em;
+    }
+    #main-content h3
+    {
+        font-size: 1.2em;
+    }
+
+}
